@@ -9,7 +9,7 @@ public class Main {
         char S2=sc.next().charAt(0);
 
         if((A1>=19&&S1=='M')||(A2>=19&&S2=='M')){
-            System.out.print(0);
+            System.out.print(1);
         }else{
             System.out.print(0);
         }
