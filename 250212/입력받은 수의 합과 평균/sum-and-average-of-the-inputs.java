@@ -11,6 +11,7 @@ public class Main {
             int input = sc.nextInt();
             sum+=input;
         }
-        System.out.print(sum+" "+((double)sum/n));
+        System.out.print(sum+" ");
+        System.out.printf("%.1f",((double)sum/n));
     }
 }
