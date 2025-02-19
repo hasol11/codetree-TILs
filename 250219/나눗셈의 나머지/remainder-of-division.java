@@ -15,6 +15,10 @@ public class Main {
         while(a>0){
             arr[a%b]++;
             a/=b;
+            if(a==b){
+                arr[0]++;
+                break;
+            }
         }
 
         for(int i=0;i<10;i++){
