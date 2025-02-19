@@ -12,14 +12,13 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        while(a>0){
+        while(a>1){
+
             arr[a%b]++;
             a/=b;
-            if(a==b){
-                arr[0]++;
-                break;
-            }
         }
+
+
 
         for(int i=0;i<10;i++){
             sum+=arr[i]*arr[i];
